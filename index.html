@@ -36,33 +36,27 @@
 
                     <nav id="nav-menu"
                         class="hidden absolute py-5 bg-white right-4 w-full top-full max-w-[250px] shadow-lg rounded-lg lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none dark:bg-dark dark:shadow-slate-500 lg:dark:bg-transparent">
-                        <ul class="block lg:flex">
+
+                        <ul class="block lg:flex lg:justify-start">
                             <li class="group">
                                 <a href="#home"
-                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary group-hover:font- dark:text-white">Beranda</a>
+                                    class="text-base text-dark py-3 mx-8 flex group-hover:text-primary group-hover:font- dark:text-white">PROJECT</a>
                             </li>
                             <li class="group">
                                 <a href="#about"
-                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary group-hover:font- dark:text-white">Tentang
-                                    Saya</a>
+                                    class="text-base text-dark py-3 mx-8 flex group-hover:text-primary group-hover:font- dark:text-white">BLOG</a>
                             </li>
                             <li class="group">
                                 <a href="#portofolio"
-                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary group-hover:font- dark:text-white">Portofolio</a>
+                                    class="text-base text-dark py-3 mx-8 flex group-hover:text-primary group-hover:font- dark:text-white">CLIENTS</a>
                             </li>
                             <li class="group">
                                 <a href="#clients"
-                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary group-hover:font- dark:text-white">Clients</a>
+                                    class="text-base text-dark py-3 mx-8 flex group-hover:text-primary group-hover:font- dark:text-white">ABOUT ME</a>
                             </li>
-                            <li class="group">
-                                <a href="#blog"
-                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary group-hover:font- dark:text-white">Blog</a>
-                            </li>
-                            <li class="group">
-                                <a href="#contact"
-                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary group-hover:font- dark:text-white">Contact</a>
-                            </li>
-                            <li class="flex items-center pl-8 sm:pt-5 md:pt-2">
+
+                            <!-- Toggle -->
+                            <!-- <li class="flex items-center pl-8 sm:pt-5 md:pt-2">
                                 <div class="flex md:shadow-lg md:rounded-full md:py-3 md:px-5 lg:py-2 lg:px-5 lg:rounded-full dark:bg-white">
                                     <span class="mr-2 text-sm text-slate-500">Light</span>
                                     <input type="checkbox" class="hidden" id="dark-toggle">
@@ -73,8 +67,17 @@
                                     </label>
                                     <span class="ml-2 text-sm text-slate-500">Dark</span>
                                 </div>
+                            </li> -->
+
+                            <!-- Download CV -->
+                            <li class="group">
+                                <button class="flex items-center py-3 px-8 rounded-md text-white bg-primary">
+                                    <!-- <img src="./dist/img/icons/icon-download.svg" alt="icon-download.svg" width="28px" class=""> -->
+                                    <a href="#" class="text-base rounded-md">Download CV</a>
+                                </button>
                             </li>
                         </ul>
+
                     </nav>
                 </div>
             </div>
@@ -88,28 +91,23 @@
             <div class="flex flex-wrap">
                 <!-- content hero -->
                 <div class="w-full self-center px-4 lg:w-1/2">
-                    <h1 class="text-base font-semibold text-primary lg:text-xl">
+                    <h1 class="text-base font-semibold text-primary lg:text-xl lg:mb-12 mb-8">
                         Hi! Everyone 🖐, I'm
-                        <span class="block text-dark text-4xl font-extrabold mt-1 lg:text-5xl dark:text-white">Fakhrian, B.I.E</span>
+                        <span class="block text-dark text-6xl font-extrabold mt-1 lg:text-8xl dark:text-white">Fakhrian,
+                            <br>FullStack JS<br>Developer
+                        </span>
                     </h1>
-                    <h2 class="font-medium text-slate-500 text-lg my-2 lg:text-xl">
-                        Software Engineer
-                        <span>& Founder PawonStudio.id</span>
-                    </h2>
-                    <p class="font-normal text-slate-400 mb-10 leading-relaxed">
-                        Ordinary people who enjoy coding and the creative world, hopefully it can be useful for others.
-                    </p>
 
                     <a href="#"
-                        class="text-base font-semibold text-white bg-gradient-to-r from-green-900 to-primary py-3 px-36 sm:px-8 rounded-full hover:shadow-lg hover:opacity-80 transition-all duration-300 ease-in-out">
-                        Hubungi Saya
+                        class="text-base lg:text-xl font-normal text-white bg-gradient-to-r from-green-900 to-primary py-3 px-8 lg:py-4 lg:px-24 sm:px-8 rounded-lg hover:shadow-lg hover:opacity-80 transition-all duration-300 ease-in-out">
+                        Contact Me
                     </a>
                 </div>
 
                 <!-- image hero -->
                 <div class="w-full self-end px-4 lg:w-1/2">
                     <div class="mt-10 lg:mt-0 lg:mr-0">
-                        <img src="dist/img/general/photos.png" alt="photos.png" class="max-w-xs mx-auto lg:max-w-sm" />
+                        <img src="dist/img/general/banner.png" alt="banner.png" class="max-w-xs mx-auto lg:max-w-lg" />
                     </div>
                 </div>
             </div>
@@ -118,7 +116,7 @@
     <!-- Hero Section end -->
 
     <!-- About Section Start -->
-    <section id="about" class="pt-32 pb-32 dark:bg-dark">
+    <section id="about" class="pt-12 pb-32 dark:bg-dark">
         <div class="container">
             <div class="flex flex-wrap">
                 <!-- Tentang Saya -->
